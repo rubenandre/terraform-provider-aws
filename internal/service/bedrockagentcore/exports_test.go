@@ -16,6 +16,7 @@ var (
 	ResourceMemoryStrategy           = newResourceMemoryStrategy
 	ResourceOAuth2CredentialProvider = newOAuth2CredentialProviderResource
 	ResourceTokenVaultCMK            = newTokenVaultCMKResource
+	ResourceResourcePolicy           = newResourcePolicyResource
 	ResourceWorkloadIdentity         = newWorkloadIdentityResource
 
 	FindAgentRuntimeByID                 = findAgentRuntimeByID
@@ -29,5 +30,6 @@ var (
 	FindMemoryStrategyByID               = findMemoryStrategyByTwoPartKey
 	FindOAuth2CredentialProviderByName   = findOAuth2CredentialProviderByName
 	FindTokenVaultByID                   = findTokenVaultByID
+	FindResourcePolicyByARN              = findResourcePolicyByARN
 	FindWorkloadIdentityByName           = findWorkloadIdentityByName
 )
